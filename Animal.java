@@ -158,6 +158,9 @@ public class Animal
         if (sameColor == true && sameName == true) {
         	return true;
         }
+        else {
+        	return false;
+        }
         // TODO: finish this...
         
         /* return TODO; */
