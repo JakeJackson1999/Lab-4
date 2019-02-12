@@ -142,8 +142,8 @@ public class Animal
         
         boolean sameColor = this.getColor().equals(otherAni.getColor());
         boolean sameName = this.getName().equals(otherAni.getName());
-        boolean sameWeight;
-        boolean sameHeight;
+        boolean sameWeight = false;
+        boolean sameHeight = false;
         
         if (this.getWeight() == (otherAni.getWeight())) 
         {
@@ -155,7 +155,7 @@ public class Animal
         	sameHeight = true;
         }
         
-        if (sameColor == true && sameName == true) {
+        if (sameColor == true && sameName == true && sameWeight == true && sameHeight == true) {
         	return true;
         }
         else {
